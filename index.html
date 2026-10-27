@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="面试侠 · AI 面试备考一站式工作台：模拟面试、简历精修、智能题库、知识库问答、录音复盘，把每一次准备变成确定性优势。" />
+  <meta name="keywords" content="AI面试,模拟面试,简历精修,面试题库,面试复盘,求职,面试备考" />
+  <meta property="og:title" content="面试侠 · AI 面试备考工作台" />
+  <meta property="og:description" content="模拟面试、简历精修、智能题库、知识库问答、录音复盘，一站式 AI 面试备考工作台。" />
+  <meta property="og:type" content="website" />
+  <title>面试侠 · AI 面试备考工作台</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230071E3'/%3E%3Ctext x='16' y='22' font-size='18' font-family='sans-serif' font-weight='700' fill='white' text-anchor='middle'%3E侠%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- SVG 图标精灵（零依赖，内联定义，<use> 引用） -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-message" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+      <line x1="8" y1="9" x2="16" y2="9" /><line x1="8" y1="13" x2="13" y2="13" />
+    </symbol>
+    <symbol id="i-file" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+      <polyline points="14 2 14 8 20 8" /><line x1="16" y1="13" x2="8" y2="13" /><line x1="16" y1="17" x2="8" y2="17" />
+    </symbol>
+    <symbol id="i-book" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" /><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+    </symbol>
+    <symbol id="i-database" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <ellipse cx="12" cy="5" rx="9" ry="3" /><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" /><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+    </symbol>
+    <symbol id="i-activity" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+    </symbol>
+    <symbol id="i-columns" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="3" y="3" width="18" height="18" rx="2" /><line x1="12" y1="3" x2="12" y2="21" />
+    </symbol>
+    <symbol id="i-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" /><circle cx="9" cy="7" r="4" /><path d="M23 21v-2a4 4 0 0 0-3-3.87" /><path d="M16 3.13a4 4 0 0 1 0 7.75" />
+    </symbol>
+    <symbol id="i-award" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="8" r="6" /><polyline points="8.5 13.5 7.5 22 12 19.5 16.5 22 15.5 13.5" />
+    </symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="4" /><line x1="12" y1="2" x2="12" y2="5" /><line x1="12" y1="19" x2="12" y2="22" /><line x1="2" y1="12" x2="5" y2="12" /><line x1="19" y1="12" x2="22" y2="12" /><line x1="5" y1="5" x2="7" y2="7" /><line x1="17" y1="17" x2="19" y2="19" /><line x1="5" y1="19" x2="7" y2="17" /><line x1="17" y1="5" x2="19" y2="7" />
+    </symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+    </symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" />
+    </symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="20 6 9 17 4 12" />
+    </symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+      <path d="M12 2l1.8 6.2L20 10l-6.2 1.8L12 18l-1.8-6.2L4 10l6.2-1.8z" />
+    </symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <line x1="3" y1="6" x2="21" y2="6" /><line x1="3" y1="12" x2="21" y2="12" /><line x1="3" y1="18" x2="21" y2="18" />
+    </symbol>
+    <symbol id="i-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" />
+    </symbol>
+  </svg>
+
+  <!-- 顶部导航 -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#top" class="brand" aria-label="面试侠首页">
+        <span class="brand__logo">侠</span>
+        <span class="brand__name">面试侠</span>
+      </a>
+      <div class="nav__links" id="navLinks">
+        <a href="#features">功能特性</a>
+        <a href="#how">使用流程</a>
+        <a href="#membership">会员方案</a>
+        <a href="#about">关于</a>
+      </div>
+      <div class="nav__actions">
+        <button class="icon-btn" id="themeToggle" aria-label="切换深色 / 浅色主题">
+          <svg class="icon-sun"><use href="#i-sun" /></svg>
+          <svg class="icon-moon"><use href="#i-moon" /></svg>
+        </button>
+        <a href="#" class="btn btn--ghost" data-action="login">登录</a>
+        <a href="#" class="btn btn--primary" data-action="start">免费开始 <svg class="icon-inline"><use href="#i-arrow" /></svg></a>
+        <button class="icon-btn nav__menu-btn" id="menuToggle" aria-label="展开菜单" aria-expanded="false">
+          <svg><use href="#i-menu" /></svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="hero__glow hero__glow--blue" aria-hidden="true"></div>
+      <div class="hero__glow hero__glow--orange" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <span class="chip"><svg class="icon-inline"><use href="#i-spark" /></svg> AI 面试备考 · 一站式工作台</span>
+        <h1 class="hero__title">把面试，练成你的<span class="grad-text">肌肉记忆</span></h1>
+        <p class="hero__subtitle">模拟面试、简历精修、智能题库、知识库问答、录音复盘——面试侠用 AI 把你的每一次准备，都变成确定性优势。</p>
+        <div class="hero__cta">
+          <a href="#" class="btn btn--primary btn--lg" data-action="start">免费开始 <svg class="icon-inline"><use href="#i-arrow" /></svg></a>
+          <a href="#features" class="btn btn--soft btn--lg">查看功能</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- AI 模型阵列 -->
+    <section class="section container">
+      <div class="reveal text-center">
+        <p class="eyebrow">底层能力</p>
+        <h2 class="section__title">接入全球顶尖 AI 模型</h2>
+        <p class="section__lead">面试侠不绑定单一模型，按需调度最强大脑，让每一道题、每一次点评都更聪明。</p>
+      </div>
+      <div class="reveal models" style="--reveal-delay:120ms">
+        <span class="model-chip"><span class="dot" style="background:#4d6bfe"></span>DeepSeek</span>
+        <span class="model-chip"><span class="dot" style="background:#615ced"></span>通义千问</span>
+        <span class="model-chip"><span class="dot" style="background:#111"></span>豆包</span>
+      </div>
+    </section>
+
+    <!-- 功能特性 -->
+    <section id="features" class="section container scroll-mt">
+      <div class="reveal text-center">
+        <p class="eyebrow">功能特性</p>
+        <h2 class="section__title">一个工作台，覆盖备考全链路</h2>
+        <p class="section__lead">从刷题、模拟、复盘到投递追踪，面试侠把分散的工具收敛成一个顺手的工作台。</p>
+      </div>
+      <div class="features-grid" id="featuresGrid"></div>
+    </section>
+
+    <!-- 使用流程 -->
+    <section id="how" class="section section--alt scroll-mt">
+      <div class="container">
+        <div class="reveal text-center">
+          <p class="eyebrow">使用流程</p>
+          <h2 class="section__title">三步，进入备考正循环</h2>
+        </div>
+        <div class="steps">
+          <div class="reveal step"><span class="step__no grad-text">01</span><h3 class="step__title">创建账号 · 完善画像</h3><p class="step__desc">注册即送体验额度，填写目标岗位与简历，AI 立刻懂你的备考场景。</p></div>
+          <div class="reveal step" style="--reveal-delay:100ms"><span class="step__no grad-text">02</span><h3 class="step__title">选择模块 · 开练</h3><p class="step__desc">模拟面试、刷题库、传资料、复盘录音——一个工作台全搞定，无需在多个工具间切换。</p></div>
+          <div class="reveal step" style="--reveal-delay:200ms"><span class="step__no grad-text">03</span><h3 class="step__title">看报告 · 补弱点 · 拿 Offer</h3><p class="step__desc">每次练习都有评分与改进建议，持续迭代，直到你对每一场面试都游刃有余。</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 会员方案 -->
+    <section id="membership" class="section container scroll-mt">
+      <div class="reveal text-center">
+        <p class="eyebrow">会员方案</p>
+        <h2 class="section__title">按需使用，不为闲置付费</h2>
+        <p class="section__lead">免费体验起步，会员解锁更高点数额度与专属模型。价格以正式上线为准。</p>
+      </div>
+      <div class="plans">
+        <div class="reveal plan">
+          <h3 class="plan__name">免费体验</h3>
+          <p class="plan__note">注册即送体验额度</p>
+          <p class="plan__price">¥0</p>
+          <ul class="plan__list">
+            <li><svg class="icon-check"><use href="#i-check" /></svg> 基础题库浏览与学习模式</li>
+            <li><svg class="icon-check"><use href="#i-check" /></svg> 限次文字模拟面试</li>
+            <li><svg class="icon-check"><use href="#i-check" /></svg> 简历一键诊断</li>
+            <li><svg class="icon-check"><use href="#i-check" /></svg> 社区面经浏览</li>
+          </ul>
+        </div>
+        <div class="reveal plan plan--featured" style="--reveal-delay:100ms">
+          <span class="plan__badge">推荐</span>
+          <h3 class="plan__name">会员 Pro</h3>
+          <p class="plan__note">高频备考更省心</p>
+          <p class="plan__price">¥9.9<span class="plan__unit"> / 月（活动价，以正式上线为准）</span></p>
+          <ul class="plan__list">
+            <li><svg class="icon-check"><use href="#i-check" /></svg> 更高点数额度，畅享语音面试</li>
+            <li><svg class="icon-check"><use href="#i-check" /></svg> 知识库上传与专属出题</li>
+            <li><svg class="icon-check"><use href="#i-check" /></svg> 无限录音复盘与二次面试</li>
+            <li><svg class="icon-check"><use href="#i-check" /></svg> 会员专属模型与优先算力</li>
+          </ul>
+          <a href="#" class="btn btn--primary btn--block" data-action="start">开通会员 <svg class="icon-inline"><use href="#i-arrow" /></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 结尾 CTA -->
+    <section class="section container">
+      <div class="reveal cta">
+        <div class="cta__glow" aria-hidden="true"></div>
+        <h2 class="cta__title">现在就开始你的下一次面试准备</h2>
+        <p class="cta__sub">注册即可免费体验，让 AI 陪你把每一场面试，练到游刃有余。</p>
+        <div class="cta__actions">
+          <a href="#" class="btn btn--white btn--lg" data-action="start">免费开始 <svg class="icon-inline"><use href="#i-arrow" /></svg></a>
+          <a href="#" class="btn btn--outline-white btn--lg" data-action="login">登录账号</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 页脚 -->
+  <footer id="about" class="footer scroll-mt">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="brand__logo">侠</span>
+        <span class="brand__name">面试侠 · AI 面试备考工作台</span>
+      </div>
+      <div class="footer__links">
+        <a href="#features">功能</a>
+        <a href="#membership">会员</a>
+        <a href="#" data-action="login">登录</a>
+      </div>
+      <span class="footer__copy">© <span id="year"></span> 面试侠</span>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
