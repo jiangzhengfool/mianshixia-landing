@@ -4,7 +4,7 @@
 
 这是一个**零依赖、纯静态**的产品落地页，由 HTML + CSS + 原生 JavaScript 构成，可直接托管到 GitHub Pages / Vercel / Netlify 等任意静态平台，也方便作为营销落地页模板二次开发。
 
-在线示例：https://www.mianshixia.com.cn
+在线示例：https://mianshixia.cpolar.top/login?invite=Chdccj4a2484cgmzg6
 
 ---
 
